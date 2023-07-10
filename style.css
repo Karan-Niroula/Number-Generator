@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    margin: 20px;
+}
+.mainContainer{
+ height: 500px;
+ width: 500px;
+ display: grid;
+ grid-template-columns: repeat(6, 1fr);
+ grid-template-rows: repeat(17, 1fr);
+ row-gap: 2px;
+ column-gap: 2px;
+ margin-bottom: 20px;
+}
+
+.mainContainer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
